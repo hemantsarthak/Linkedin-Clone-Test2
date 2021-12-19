@@ -5,12 +5,18 @@ import "firebase/firestore";
 
 // initialize firebaseApp with firebase-config values
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_APP_ID,
+  apiKey: "AIzaSyD6ZPx8KUtqavNzNOnzfD1km6f67DOa75w",
+
+  authDomain: "linkedin-b5c4c.firebaseapp.com",
+
+  projectId: "linkedin-b5c4c",
+
+  storageBucket: "linkedin-b5c4c.appspot.com",
+
+  messagingSenderId: "828401721262",
+
+  appId: "1:828401721262:web:73edbde32bb93b9d46323f"
+
 };
 
 let app;
